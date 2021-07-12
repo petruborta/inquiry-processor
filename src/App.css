@@ -1,0 +1,86 @@
+/* :root {
+    --background-color: #f3f4f6;
+    --midnight-blue: #012e67;
+    --cadet-blue: #9cacbf;
+    --calypso: #2b6684;
+    --calypso50: #2b66847f;
+    --blue-whale: #032e42;
+    --aztec: #0a1417;
+    --success: rgb(92, 184, 92);
+    --success-light: rgb(122, 214, 122);
+    --success-dark: rgb(32, 124, 32);
+    --danger: rgb(217, 83, 79);
+    --danger-light: rgb(247, 113, 109);
+    --danger-dark: rgb(157, 23, 19);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+    border: none;
+}
+
+button,
+.fas,
+.far {
+    cursor: pointer;
+}
+
+.fas.fa-redo-alt:hover {
+    color: rgb(32, 124, 32);
+}
+
+.fas.fa-trash-alt:hover {
+    color: rgb(157, 23, 19);
+}
+
+.fas.fa-envelope-open-text:hover,
+.fas.fa-envelope:hover {
+    color: royalblue;
+}
+
+.App {
+    margin: 50px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.invisible {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
